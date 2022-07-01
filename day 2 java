@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+// class Main {
+//   public static void main(String[] args) {
+//   Scanner stdIn = new Scanner(System.in);
+
+//     System.out.println("x값: "); //x값 입력 메시지
+//     double x = stdIn.nextDouble();   // 입력한 실수값x에 저장
+  
+//     System.out.println("y값: "); //y값 입력 메시지
+//     double y = stdIn.nextDouble(); //입력한 실수값 y에 저장
+    
+//   System.out.println("합계는" + (x + y) + "입니다.");
+//   System.out.println("평균은" + (x + y)/2 + "입니다.");
+    
+
+ // }
+//}
+class Main {
+   public static void main(String[] args) {
+  Scanner stdIn = new Scanner(System.in);
+
+  System.out.println("삼각형의 넓이를 구합니다.");
+  System.out.println("밑변: ");
+   double x = stdIn.nextDouble();
+
+  System.out.println("높이: ");
+  double y = stdIn.nextDouble();
+
+  System.out.println("넓이는" + (x * y)/2 + "입니다.");
+   }
+} 
